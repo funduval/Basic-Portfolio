@@ -4,24 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Funda Duval Portfolio</title>
+
+
     <style>
-    h1 {
-        display: inline-block;
+
+    #name{
+
+    display: inline-block;
+    margin-left: 220px;
+    margin-bottom: 0px;
+    line-height: 80px;
+    padding: 10px;
+    background-color: teal;
+    color:white;
+    font-style: bold;
+
+    }
+
+    #mainBody{
+    margin:auto;
+    }
+
+    button {
+
+        display: inline;
+
     }
     
+    
     #aboutImage {
+       
         height: 20%;
         width: 20%;
+        
     }
 
     #aboutMe{
-
-
+       
+    float: left;
+    padding: 30px;
     background-color: white;
-    width: 460px;
-    margin: 40px;
+    width: 360px;
+    margin: 80px;
 
     }
+    #bio{
+
+      
+  
+    }
+
+
     
     #logosMain {
         list-style: none;
@@ -29,33 +62,56 @@
     }
     
     .logoButtons {
-        height: 5%;
-        width: 5%;
+        height: 10%;
+        width: 10%;
     }
     
     #menuMain {
         list-style: none;
-        display: inline;
+        display: inline-block;
+        float: right;
+        margin-right: 40px;
     }
 
     #Connect{
-
-
+        float:left;
+        overflow: auto;
+        padding: 30px;
         background-color:white;
-        width: 300px;
+        width: 200px;
         margin: 40px;
     }
 
     hr {
 
+        color: grey;
+    }
+    #Footer{
+        height: 40px;
+        padding: 15px;
+        text-align: center;
+        background-image: url("https://github.com/funduval/Basic-Portfolio/blob/master/assets/images/grey_wash_wall.png?raw=true");
+        color: white;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 930px;
+    }
+    #foot{
 
-        width: 80%;
+        background-color:teal;
+        height:8px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 959px;
+        margin-left: auto;
+        margin-right: auto;
     }
     </style>
 </head>
 
 <body>
-    <h1>Funda Istvan</h1>
+    <h1 id="name">Funda Istvan</h1>
     <ul id="menuMain">
         <li>
             <button type="button" ;>About</button>
@@ -103,6 +159,7 @@
             </ul>
         </div>
     </div>
+    <hr id="foot">
     <div id="Footer">
         <p>@copywright 2017 Funda Duval Istvan</p>
     </div>
