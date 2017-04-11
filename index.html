@@ -4,20 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Funda Duval Portfolio</title>
-
-
     <style>
-
-
     h1 {
         display: inline-block;
     }
-
-
+    
     #aboutImage {
+        height: 20%;
+        width: 20%;
+    }
 
-      height: 20%;
-      width: 20%;
+    #aboutMe{
+
+
+    background-color: white;
+    width: 460px;
+    margin: 40px;
+
     }
     
     #logosMain {
@@ -35,56 +38,73 @@
         display: inline;
     }
 
+    #Connect{
 
+
+        background-color:white;
+        width: 300px;
+        margin: 40px;
+    }
+
+    hr {
+
+
+        width: 80%;
+    }
     </style>
 </head>
 
 <body>
     <h1>Funda Istvan</h1>
     <ul id="menuMain">
-        <li><button type="button";>About</button></li>
-        <li><button type="button";>Portfolio</button></li>
-        <li><button type="button";>Contact</button></li>
+        <li>
+            <button type="button" ;>About</button>
+        </li>
+        <li>
+            <button type="button" ;>Portfolio</button>
+        </li>
+        <li>
+            <button type="button" ;>Contact</button>
+        </li>
     </ul>
-    <div id="mainBody">
-    </div>
-    <div id="aboutMe">
-    <image id="aboutImage" src="https://github.com/funduval/Basic-Portfolio/blob/master/assets/images/cropped-wordpressheader.jpg?raw=true;"/>
+    <div id="mainBody" style="background-image: url(https://github.com/funduval/Basic-Portfolio/blob/master/assets/images/seamless_paper_texture.png?raw=true);width: 960px;height: 600px; ">
+        <div id="aboutMe">
+           
+            <h2 id="insideAbout"> About Me </h2>
 
-        <h2 id="insideAbout"> About Me </h2>
+         <hr>
 
-        <hr>
-    </div>
-    <div id="Connect">
-        <h3 id="buttonHeader"> Connect with Me </h3>
-        <hr>
-        <ul id="logosMain">
-            <li>
-                <a href="https://github.com/funduval" ;>
-                    <image class="logoButtons" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBpZD0iRmlsbGVkX2NvcHkiPjxnPjxnPjxyZWN0IGZpbGw9IiNFRkVGRUYiIGhlaWdodD0iMzAiIHdpZHRoPSIzMCIgeD0iMSIgeT0iMSIvPjxwYXRoIGQ9Ik0zMS41LDMxLjVoLTMxdi0zMWgzMVYzMS41eiBNMS41LDMwLjVoMjl2LTI5aC0yOVYzMC41eiIgZmlsbD0iIzIyMjA3NyIvPjwvZz48Zz48cmVjdCBmaWxsPSIjRUZFRkVGIiBoZWlnaHQ9IjMwIiB3aWR0aD0iMzAiIHg9IjEiIHk9IjEiLz48cGF0aCBkPSJNMzEuNSwzMS41aC0zMXYtMzFoMzFWMzEuNXogTTEuNSwzMC41aDI5di0yOWgtMjlWMzAuNXoiIGZpbGw9IiMyMjIwNzciLz48L2c+PC9nPjxnIGlkPSJDYXRfOF8iPjxwYXRoIGQ9Ik0xOS4yNDYsMjQuOTQ1aC0yLjM4M2gtMi4zODVjMCwwLDAuMDA3LTEuNDE1LDAtMi4zODVjLTMuMjY0LDAuNzAzLTQuMTc1LTEuNzg5LTQuMTc1LTEuNzg5ICAgIGMtMC41OTYtMS4xOTMtMS4xOTMtMS43ODktMS4xOTMtMS43ODljLTEuMTkzLTAuNzA4LDAtMC41OTYsMC0wLjU5NmMxLjE5MywwLDEuNzg5LDEuMTkzLDEuNzg5LDEuMTkzICAgIGMxLjA0NywxLjc3NywyLjkwOSwxLjQ5MSwzLjU3OCwxLjE5M2MwLTAuNTk2LDAuMjYxLTEuNDk4LDAuNTk2LTEuNzg5Yy0yLjYwNS0wLjI5My00Ljc3My0xLjc4OS00Ljc3My00Ljc3MSAgICBzMC41OTktMy41NzgsMS4xOTUtNC4xNzVjLTAuMTItMC4yOTQtMC42Mi0xLjM4MSwwLjAxOC0yLjk4MmMwLDAsMS4xNzIsMCwyLjM2NSwxLjc4OWMwLjU5MS0wLjU5MSwyLjM4NS0wLjU5NiwyLjk4Mi0wLjU5NiAgICBjMC41OTUsMCwyLjM5LDAuMDA1LDIuOTgxLDAuNTk2YzEuMTkzLTEuNzg5LDIuMzY4LTEuNzg5LDIuMzY4LTEuNzg5YzAuNjM4LDEuNjAxLDAuMTM5LDIuNjg4LDAuMDE4LDIuOTgyICAgIGMwLjU5NiwwLjU5NiwxLjE5MywxLjE5MywxLjE5Myw0LjE3NXMtMi4xNjUsNC40NzctNC43NzEsNC43NzFjMC4zMzYsMC4yOTEsMC41OTYsMS4zMTcsMC41OTYsMS43ODlMMTkuMjQ2LDI0Ljk0NUwxOS4yNDYsMjQuOTQ1ICAgIHoiIGZpbGw9IiMyMjIwNzciLz48L2c+PC9nPjwvc3ZnPg==" />
-                </a>
-            </li>
-            <li>
-                <a href="http://stackexchange.com/users/10547175/funda-istvan" ;>
-                    <image class="logoButtons" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBkPSJNMjYwLjcsNTA2Yy01MS44LDAtMTAzLjYsMC0xNTUuNSwwYy03LDAtNywwLTctNy4yYzAtNjMuNywwLTEyNy4zLDAtMTkxYzAtNi44LDAtNi44LDYuOS02LjggICBjNy4yLDAsMTQuMywwLjMsMjEuNS0wLjFjNC40LTAuMiw1LjYsMSw1LjYsNS41Yy0wLjIsNDYuMi0wLjEsOTIuMy0wLjEsMTM4LjVjMCw3LjMsMC4yLDE0LjctMC4xLDIyYy0wLjIsNC4yLDEuMiw1LjMsNS40LDUuMyAgIGM1NS44LTAuMSwxMTEuNi0wLjEsMTY3LjUtMC4xYzI2LDAsNTItMC4xLDc4LDAuMWM0LjksMCw2LjUtMSw2LjQtNi4zYy0wLjItNTMtMC4xLTEwNi0wLjItMTU5YzAtNC44LDEuMi02LjMsNi4xLTYuMSAgIGM3LjUsMC40LDE1LDAuNCwyMi41LDBjNC42LTAuMiw1LjUsMS40LDUuNSw1LjZjLTAuMSw0OS44LTAuMSw5OS42LTAuMSwxNDkuNWMwLDE0LjMsMCwyOC43LDAsNDNjMCw2LjksMCw2LjktNi44LDYuOSAgIEMzNjQuMyw1MDYsMzEyLjUsNTA2LDI2MC43LDUwNnoiIGZpbGw9IiNCQ0JCQkIiLz48cGF0aCBkPSJNNDUyLDkuMmMzLjUtMC44LDMuMiwxLjcsMy42LDMuNmMzLjEsMTgsNi4yLDM2LjEsOS40LDU0LjFjNy41LDQzLjMsMTUsODYuNiwyMi43LDEyOS44ICAgYzAuOCw0LjMtMC40LDUuNS00LjIsNi4xYy0xMC41LDEuNi0yMS4xLDMuMi0zMS41LDUuNGMtNC41LDEtNS4yLTAuNy01LjgtNC40Yy0zLjgtMjIuOC03LjgtNDUuNi0xMS44LTY4LjQgICBjLTYuNS0zNy4yLTEyLjktNzQuNC0xOS40LTExMS43Yy0xLjQtNy44LTEuNS03LjgsNi40LTkuM0M0MzEuNiwxMi42LDQ0MS45LDExLDQ1Miw5LjJ6IiBmaWxsPSIjRjM4MTI2Ii8+PHBhdGggZD0iTTQzOSwyMTAuOWMtMC4xLDEuNi0xLjQsMi0yLjMsMi42Yy05LjYsNi42LTE5LjMsMTMtMjguOCwxOS44Yy0zLjUsMi41LTQuMi0wLjEtNS42LTIgICBjLTI2LTM4LjEtNTItNzYuMi03OC0xMTQuNGMtOS4xLTEzLjMtMTguMS0yNi43LTI3LjQtNDBjLTEuOS0yLjctMi4yLTQuMSwxLTYuMmM5LjQtNi4xLDE4LjUtMTIuNCwyNy43LTE4LjggICBjMi40LTEuNywzLjgtMi4xLDUuOSwwLjljMzUuMiw1MS44LDcwLjUsMTAzLjUsMTA1LjgsMTU1LjNDNDM3LjksMjA5LDQzOC41LDIxMCw0MzksMjEwLjl6IiBmaWxsPSIjRjM4MTI2Ii8+PHBhdGggZD0iTTM2MCwzNTEuMWMtMC45LDkuMy0xLjksMTkuNi0yLjcsMjkuOWMtMC4yLDMuMi0xLjMsNC4yLTQuNiwzLjljLTQwLjEtMy44LTgwLjItNy40LTEyMC4zLTExLjEgICBjLTIxLjctMi00My40LTQuMS02NS4xLTUuOWMtNC4zLTAuNC01LjktMS43LTUuMy02LjRjMS40LTEwLjcsMi4zLTIxLjUsMy4xLTMyLjNjMC4yLTMuMiwxLjMtMy42LDQuMy0zLjQgICBjNDUuNiw0LjIsOTEuMSw4LjMsMTM2LjcsMTIuNGMxNS45LDEuNCwzMS44LDMsNDcuNyw0LjZDMzYwLjQsMzQzLjQsMzYwLjQsMzQzLjUsMzYwLDM1MS4xeiIgZmlsbD0iI0YzODEyNiIvPjxwYXRoIGQ9Ik0zOTcuNywyNDEuN2MtMC41LDAuOC0wLjksMS43LTEuNCwyLjVjLTUuNyw5LjYtMTEuNCwxOS4yLTE2LjksMjguOWMtMS43LDMtMy4xLDMuNS02LjIsMS43ICAgYy01My45LTMxLjktMTA3LjgtNjMuNy0xNjEuNy05NS40Yy0zLTEuOC0yLjktMy4xLTEuMy01LjdjNS44LTkuNSwxMS41LTE5LjEsMTctMjguOGMxLjYtMi44LDIuOC0zLjMsNS44LTEuNiAgIGM1NCwzMiwxMDguMSw2My44LDE2Mi4xLDk1LjdDMzk2LjEsMjM5LjYsMzk3LjcsMjM5LjksMzk3LjcsMjQxLjd6IiBmaWxsPSIjRjM4MTI2Ii8+PHBhdGggZD0iTTE4Ni4zLDIzOC40YzE0LjUsMy45LDI4LjgsNy44LDQzLjEsMTEuNmM0Ni40LDEyLjUsOTIuOCwyNSwxMzkuMiwzNy4zYzQuMSwxLjEsNC45LDIuNSwzLjcsNi41ICAgYy0zLjEsMTAuNC01LjgsMjAuOC04LjUsMzEuM2MtMC43LDIuOS0xLjUsNC4xLTUsMy4xYy02MC4zLTE2LjQtMTIwLjctMzIuNi0xODEtNDguN2MtMy42LTEtNC40LTIuMS0zLjMtNS44ICAgYzMuMS0xMC43LDUuOC0yMS41LDguNy0zMi4zQzE4My42LDIzOS44LDE4My43LDIzNy41LDE4Ni4zLDIzOC40eiIgZmlsbD0iI0YzODEyNiIvPjxwYXRoIGQ9Ik0yNTcuNSw0MzljLTMwLjgsMC02MS42LTAuMS05Mi40LDAuMWMtNC4yLDAtNS4zLTEuMi01LjItNS4zYzAuMy0xMC44LDAuMi0yMS43LDAtMzIuNSAgIGMtMC4xLTMuMywxLTQuMiw0LjMtNC4yYzYyLjUsMC4xLDEyNC45LDAsMTg3LjQtMC4xYzMuNiwwLDQuNSwxLjIsNC40LDQuNmMtMC4yLDEwLjgtMC4yLDIxLjcsMCwzMi41YzAuMSw0LTEuMiw1LTUsNSAgIEMzMTkuOCw0MzguOSwyODguNiw0MzguOSwyNTcuNSw0MzlDMjU3LjUsNDM5LDI1Ny41LDQzOSwyNTcuNSw0Mzl6IiBmaWxsPSIjRjM4MTI2Ii8+PC9nPjwvc3ZnPg==" />
-                </a>
-            </li>
-            <li>
-                <a href="http://linkedin.com/in/fundaduval";>
-                    <image class="logoButtons" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDMyIDMyIiB3aWR0aD0iMzJweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGc+PHBhdGggZD0iTTMyLDMwYzAsMS4xMDQtMC44OTYsMi0yLDJIMmMtMS4xMDQsMC0yLTAuODk2LTItMlYyYzAtMS4xMDQsMC44OTYtMiwyLTJoMjhjMS4xMDQsMCwyLDAuODk2LDIsMlYzMHoiIGZpbGw9IiMwMDdCQjUiLz48Zz48cmVjdCBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjE0IiB3aWR0aD0iNCIgeD0iNyIgeT0iMTEiLz48cGF0aCBkPSJNMjAuNDk5LDExYy0yLjc5MSwwLTMuMjcxLDEuMDE4LTMuNDk5LDJ2LTJoLTR2MTRoNHYtOGMwLTEuMjk3LDAuNzAzLTIsMi0yYzEuMjY2LDAsMiwwLjY4OCwyLDJ2OGg0di03ICAgIEMyNSwxNCwyNC40NzksMTEsMjAuNDk5LDExeiIgZmlsbD0iI0ZGRkZGRiIvPjxjaXJjbGUgY3g9IjkiIGN5PSI4IiBmaWxsPSIjRkZGRkZGIiByPSIyIi8+PC9nPjwvZz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=">
-                </a>
-            </li>
-    </div>
-    </ul>
-    </div>
+             <image id="aboutImage" src="https://github.com/funduval/Basic-Portfolio/blob/master/assets/images/cropped-wordpressheader.jpg?raw=true;" />
+
+             <p id="bio">Actress migrating from the arts into tech and hoping to take my creative side with me. SAG/AFTRA and Equity professional performer with imDb credits in consulting editing on a feature film. I have produced and written web commercials, self-produced and edited audiobooks, written plays and translated subtitles for Turkish soap operas into English. I also work as a business roleplayer--clients include Microsoft, Aeta, Barclay's Bank, Ortho Diagnostics and New York Medical College.
 
 
+           
+        </div>
+        <div id="Connect">
+            <h3 id="buttonHeader"> Connect with Me </h3>
+            <hr>
+            <ul id="logosMain">
+                <li>
+                    <a href="https://github.com/funduval" ;>
+                        <image class="logoButtons" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBpZD0iRmlsbGVkX2NvcHkiPjxnPjxnPjxyZWN0IGZpbGw9IiNFRkVGRUYiIGhlaWdodD0iMzAiIHdpZHRoPSIzMCIgeD0iMSIgeT0iMSIvPjxwYXRoIGQ9Ik0zMS41LDMxLjVoLTMxdi0zMWgzMVYzMS41eiBNMS41LDMwLjVoMjl2LTI5aC0yOVYzMC41eiIgZmlsbD0iIzIyMjA3NyIvPjwvZz48Zz48cmVjdCBmaWxsPSIjRUZFRkVGIiBoZWlnaHQ9IjMwIiB3aWR0aD0iMzAiIHg9IjEiIHk9IjEiLz48cGF0aCBkPSJNMzEuNSwzMS41aC0zMXYtMzFoMzFWMzEuNXogTTEuNSwzMC41aDI5di0yOWgtMjlWMzAuNXoiIGZpbGw9IiMyMjIwNzciLz48L2c+PC9nPjxnIGlkPSJDYXRfOF8iPjxwYXRoIGQ9Ik0xOS4yNDYsMjQuOTQ1aC0yLjM4M2gtMi4zODVjMCwwLDAuMDA3LTEuNDE1LDAtMi4zODVjLTMuMjY0LDAuNzAzLTQuMTc1LTEuNzg5LTQuMTc1LTEuNzg5ICAgIGMtMC41OTYtMS4xOTMtMS4xOTMtMS43ODktMS4xOTMtMS43ODljLTEuMTkzLTAuNzA4LDAtMC41OTYsMC0wLjU5NmMxLjE5MywwLDEuNzg5LDEuMTkzLDEuNzg5LDEuMTkzICAgIGMxLjA0NywxLjc3NywyLjkwOSwxLjQ5MSwzLjU3OCwxLjE5M2MwLTAuNTk2LDAuMjYxLTEuNDk4LDAuNTk2LTEuNzg5Yy0yLjYwNS0wLjI5My00Ljc3My0xLjc4OS00Ljc3My00Ljc3MSAgICBzMC41OTktMy41NzgsMS4xOTUtNC4xNzVjLTAuMTItMC4yOTQtMC42Mi0xLjM4MSwwLjAxOC0yLjk4MmMwLDAsMS4xNzIsMCwyLjM2NSwxLjc4OWMwLjU5MS0wLjU5MSwyLjM4NS0wLjU5NiwyLjk4Mi0wLjU5NiAgICBjMC41OTUsMCwyLjM5LDAuMDA1LDIuOTgxLDAuNTk2YzEuMTkzLTEuNzg5LDIuMzY4LTEuNzg5LDIuMzY4LTEuNzg5YzAuNjM4LDEuNjAxLDAuMTM5LDIuNjg4LDAuMDE4LDIuOTgyICAgIGMwLjU5NiwwLjU5NiwxLjE5MywxLjE5MywxLjE5Myw0LjE3NXMtMi4xNjUsNC40NzctNC43NzEsNC43NzFjMC4zMzYsMC4yOTEsMC41OTYsMS4zMTcsMC41OTYsMS43ODlMMTkuMjQ2LDI0Ljk0NUwxOS4yNDYsMjQuOTQ1ICAgIHoiIGZpbGw9IiMyMjIwNzciLz48L2c+PC9nPjwvc3ZnPg==" />
+                    </a>
+                </li>
+                <li>
+                    <a href="http://stackexchange.com/users/10547175/funda-istvan" ;>
+                        <image class="logoButtons" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBkPSJNMjYwLjcsNTA2Yy01MS44LDAtMTAzLjYsMC0xNTUuNSwwYy03LDAtNywwLTctNy4yYzAtNjMuNywwLTEyNy4zLDAtMTkxYzAtNi44LDAtNi44LDYuOS02LjggICBjNy4yLDAsMTQuMywwLjMsMjEuNS0wLjFjNC40LTAuMiw1LjYsMSw1LjYsNS41Yy0wLjIsNDYuMi0wLjEsOTIuMy0wLjEsMTM4LjVjMCw3LjMsMC4yLDE0LjctMC4xLDIyYy0wLjIsNC4yLDEuMiw1LjMsNS40LDUuMyAgIGM1NS44LTAuMSwxMTEuNi0wLjEsMTY3LjUtMC4xYzI2LDAsNTItMC4xLDc4LDAuMWM0LjksMCw2LjUtMSw2LjQtNi4zYy0wLjItNTMtMC4xLTEwNi0wLjItMTU5YzAtNC44LDEuMi02LjMsNi4xLTYuMSAgIGM3LjUsMC40LDE1LDAuNCwyMi41LDBjNC42LTAuMiw1LjUsMS40LDUuNSw1LjZjLTAuMSw0OS44LTAuMSw5OS42LTAuMSwxNDkuNWMwLDE0LjMsMCwyOC43LDAsNDNjMCw2LjksMCw2LjktNi44LDYuOSAgIEMzNjQuMyw1MDYsMzEyLjUsNTA2LDI2MC43LDUwNnoiIGZpbGw9IiNCQ0JCQkIiLz48cGF0aCBkPSJNNDUyLDkuMmMzLjUtMC44LDMuMiwxLjcsMy42LDMuNmMzLjEsMTgsNi4yLDM2LjEsOS40LDU0LjFjNy41LDQzLjMsMTUsODYuNiwyMi43LDEyOS44ICAgYzAuOCw0LjMtMC40LDUuNS00LjIsNi4xYy0xMC41LDEuNi0yMS4xLDMuMi0zMS41LDUuNGMtNC41LDEtNS4yLTAuNy01LjgtNC40Yy0zLjgtMjIuOC03LjgtNDUuNi0xMS44LTY4LjQgICBjLTYuNS0zNy4yLTEyLjktNzQuNC0xOS40LTExMS43Yy0xLjQtNy44LTEuNS03LjgsNi40LTkuM0M0MzEuNiwxMi42LDQ0MS45LDExLDQ1Miw5LjJ6IiBmaWxsPSIjRjM4MTI2Ii8+PHBhdGggZD0iTTQzOSwyMTAuOWMtMC4xLDEuNi0xLjQsMi0yLjMsMi42Yy05LjYsNi42LTE5LjMsMTMtMjguOCwxOS44Yy0zLjUsMi41LTQuMi0wLjEtNS42LTIgICBjLTI2LTM4LjEtNTItNzYuMi03OC0xMTQuNGMtOS4xLTEzLjMtMTguMS0yNi43LTI3LjQtNDBjLTEuOS0yLjctMi4yLTQuMSwxLTYuMmM5LjQtNi4xLDE4LjUtMTIuNCwyNy43LTE4LjggICBjMi40LTEuNywzLjgtMi4xLDUuOSwwLjljMzUuMiw1MS44LDcwLjUsMTAzLjUsMTA1LjgsMTU1LjNDNDM3LjksMjA5LDQzOC41LDIxMCw0MzksMjEwLjl6IiBmaWxsPSIjRjM4MTI2Ii8+PHBhdGggZD0iTTM2MCwzNTEuMWMtMC45LDkuMy0xLjksMTkuNi0yLjcsMjkuOWMtMC4yLDMuMi0xLjMsNC4yLTQuNiwzLjljLTQwLjEtMy44LTgwLjItNy40LTEyMC4zLTExLjEgICBjLTIxLjctMi00My40LTQuMS02NS4xLTUuOWMtNC4zLTAuNC01LjktMS43LTUuMy02LjRjMS40LTEwLjcsMi4zLTIxLjUsMy4xLTMyLjNjMC4yLTMuMiwxLjMtMy42LDQuMy0zLjQgICBjNDUuNiw0LjIsOTEuMSw4LjMsMTM2LjcsMTIuNGMxNS45LDEuNCwzMS44LDMsNDcuNyw0LjZDMzYwLjQsMzQzLjQsMzYwLjQsMzQzLjUsMzYwLDM1MS4xeiIgZmlsbD0iI0YzODEyNiIvPjxwYXRoIGQ9Ik0zOTcuNywyNDEuN2MtMC41LDAuOC0wLjksMS43LTEuNCwyLjVjLTUuNyw5LjYtMTEuNCwxOS4yLTE2LjksMjguOWMtMS43LDMtMy4xLDMuNS02LjIsMS43ICAgYy01My45LTMxLjktMTA3LjgtNjMuNy0xNjEuNy05NS40Yy0zLTEuOC0yLjktMy4xLTEuMy01LjdjNS44LTkuNSwxMS41LTE5LjEsMTctMjguOGMxLjYtMi44LDIuOC0zLjMsNS44LTEuNiAgIGM1NCwzMiwxMDguMSw2My44LDE2Mi4xLDk1LjdDMzk2LjEsMjM5LjYsMzk3LjcsMjM5LjksMzk3LjcsMjQxLjd6IiBmaWxsPSIjRjM4MTI2Ii8+PHBhdGggZD0iTTE4Ni4zLDIzOC40YzE0LjUsMy45LDI4LjgsNy44LDQzLjEsMTEuNmM0Ni40LDEyLjUsOTIuOCwyNSwxMzkuMiwzNy4zYzQuMSwxLjEsNC45LDIuNSwzLjcsNi41ICAgYy0zLjEsMTAuNC01LjgsMjAuOC04LjUsMzEuM2MtMC43LDIuOS0xLjUsNC4xLTUsMy4xYy02MC4zLTE2LjQtMTIwLjctMzIuNi0xODEtNDguN2MtMy42LTEtNC40LTIuMS0zLjMtNS44ICAgYzMuMS0xMC43LDUuOC0yMS41LDguNy0zMi4zQzE4My42LDIzOS44LDE4My43LDIzNy41LDE4Ni4zLDIzOC40eiIgZmlsbD0iI0YzODEyNiIvPjxwYXRoIGQ9Ik0yNTcuNSw0MzljLTMwLjgsMC02MS42LTAuMS05Mi40LDAuMWMtNC4yLDAtNS4zLTEuMi01LjItNS4zYzAuMy0xMC44LDAuMi0yMS43LDAtMzIuNSAgIGMtMC4xLTMuMywxLTQuMiw0LjMtNC4yYzYyLjUsMC4xLDEyNC45LDAsMTg3LjQtMC4xYzMuNiwwLDQuNSwxLjIsNC40LDQuNmMtMC4yLDEwLjgtMC4yLDIxLjcsMCwzMi41YzAuMSw0LTEuMiw1LTUsNSAgIEMzMTkuOCw0MzguOSwyODguNiw0MzguOSwyNTcuNSw0MzlDMjU3LjUsNDM5LDI1Ny41LDQzOSwyNTcuNSw0Mzl6IiBmaWxsPSIjRjM4MTI2Ii8+PC9nPjwvc3ZnPg==" />
+                    </a>
+                </li>
+                <li>
+                    <a href="http://linkedin.com/in/fundaduval" ;>
+                        <image class="logoButtons" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDMyIDMyIiB3aWR0aD0iMzJweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGc+PHBhdGggZD0iTTMyLDMwYzAsMS4xMDQtMC44OTYsMi0yLDJIMmMtMS4xMDQsMC0yLTAuODk2LTItMlYyYzAtMS4xMDQsMC44OTYtMiwyLTJoMjhjMS4xMDQsMCwyLDAuODk2LDIsMlYzMHoiIGZpbGw9IiMwMDdCQjUiLz48Zz48cmVjdCBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjE0IiB3aWR0aD0iNCIgeD0iNyIgeT0iMTEiLz48cGF0aCBkPSJNMjAuNDk5LDExYy0yLjc5MSwwLTMuMjcxLDEuMDE4LTMuNDk5LDJ2LTJoLTR2MTRoNHYtOGMwLTEuMjk3LDAuNzAzLTIsMi0yYzEuMjY2LDAsMiwwLjY4OCwyLDJ2OGg0di03ICAgIEMyNSwxNCwyNC40NzksMTEsMjAuNDk5LDExeiIgZmlsbD0iI0ZGRkZGRiIvPjxjaXJjbGUgY3g9IjkiIGN5PSI4IiBmaWxsPSIjRkZGRkZGIiByPSIyIi8+PC9nPjwvZz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div id="Footer">
-
-    <p>@copywright 2017 Funda Duval Istvan</p>
-
-
-
+        <p>@copywright 2017 Funda Duval Istvan</p>
     </div>
 </body>
 
