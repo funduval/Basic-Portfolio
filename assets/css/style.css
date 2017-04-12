@@ -1,4 +1,26 @@
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 98.437%;
+    padding: 8px;
+    text-align: center;
+    background: url("https://github.com/funduval/Basic-Portfolio/blob/master/assets/images/grey_wash_wall.png?raw=true");
+    color: white;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: #44b3c2;
+    border-top-width: 8px;
+    border-top-style: solid;
+}
     h1 {
         display: inline-block;
         margin-left: 18%;
@@ -12,11 +34,15 @@
     }
     
     #mainBody {
-        margin: auto;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px; /* bottom = footer height */
         width: 960px;
-        height: 540px;
+        height: 630px;
+        padding:0;
         background-image: url("https://github.com/funduval/Basic-Portfolio/blob/master/assets/images/seamless_paper_texture.png?raw=true");
-        margin-bottom: 0px;
+        
     }
     
    
@@ -39,7 +65,7 @@
     }
    
     body {
-       
+        
         font-family: 'Roboto', sans-serif;
     }
 
@@ -58,7 +84,7 @@
         width: 524px;
         height: 440px;
         margin-left: 40px;
-        margin-top: 18px;
+        margin-top: 30px;
         color: grey;
 
     }
@@ -70,8 +96,8 @@
     }
     
     .logoButtons {
-        height: 21%;
-        width: 21%;
+        height: 19%;
+        width: 19%;
         margin-left: 8px;
         padding: auto;
 
@@ -92,11 +118,11 @@
         float: left;
         padding: 8px 18px 12px 18px;
         background-color: white;
-        width: 24%;
-        height: 30%;
+        width: 23%;
+        height: 25%;
         margin-right: auto;
-        margin-left: 20px;
-        margin-top: 18px;
+        margin-left: 30px;
+        margin-top: 30px;
     }
 
     hr{
@@ -125,21 +151,7 @@
     }
    
     
-    #Footer {
-        height: 40px;
-        padding: 20px;
-        text-align: center;
-        background: url("https://github.com/funduval/Basic-Portfolio/blob/master/assets/images/grey_wash_wall.png?raw=true");
-        color: white;
-        margin-top: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 920px;
-        border-top: #44b3c2;
-        border-top-width: 8px;
-        border-top-style: solid;
-    }
-    
+   
    
     
     li {
