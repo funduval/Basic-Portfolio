@@ -1,28 +1,25 @@
 
     h1 {
         display: inline-block;
-        margin-left: 220px;
+        margin-left: 18%;
         margin-bottom: 0px;
-        line-height: 32px;
-        padding: 20px;
-        background-color: teal;
+        line-height: 26px;
+        padding: 14px;
+        background-color: #44b3c2;
         color: white;
         font-style: bold;
+        font-size: 38px;
     }
     
     #mainBody {
         margin: auto;
         width: 960px;
-        height: 490px;
+        height: 540px;
         background-image: url("https://github.com/funduval/Basic-Portfolio/blob/master/assets/images/seamless_paper_texture.png?raw=true");
         margin-bottom: 0px;
     }
     
-    #buttonHeader {
-        text-align: center;
-        color:grey;
-       
-    }
+   
     
     button {
         border: none;
@@ -32,69 +29,101 @@
         height:50px;
         width:100px;
         padding:6px;
-
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
     }
-    
-    #aboutImage {
+
+    button:hover {
+    background-color: #44b3c2; /* Green */
+    color: white;
+    }
+   
+    body {
+       
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    #mainImage {
         float: left;
-        height: 44%;
-        width: 35%;
+       height:200px;
+       width:200px;
         margin: 10px 10px 0px 2px;
     }
     
-    #aboutMe {
+    #mainContent {
         float: left;
         padding: 20px;
         background-color: white;
-        width: 510px;
-        height: 411px;
+        width: 524px;
+        height: 440px;
         margin-left: 40px;
-        margin-top: 25px;
+        margin-top: 18px;
         color: grey;
+
     }
     
-    #logosMain {
+    #sidebarMenu {
         list-style: none;
-        padding: 10px;
-       
+        padding: 0px;
        
     }
     
     .logoButtons {
-        height: 25%;
-        width: 25%;
+        height: 21%;
+        width: 21%;
+        margin-left: 8px;
+        padding: auto;
 
     }
     
-    #menuMain {
+    #headerMenu {
         list-style: none;
         float: right;
         margin-right: 18%;
-        margin-top: 40px;
-        margin-bottom: 10px;
+        margin-top: 25px;
+        margin-bottom: 0px;
         display: inline;
         color:grey;
     }
     
-    #Connect {
+    #sidebar {
         font-size: 18px;
         float: left;
-        padding: 17px;
+        padding: 8px 18px 12px 18px;
         background-color: white;
-        width: 200px;
+        width: 24%;
+        height: 30%;
         margin-right: auto;
         margin-left: 20px;
-        margin-top: 25px;
+        margin-top: 18px;
+    }
+
+    hr{
+
+        margin-top: 4px;
+        margin-bottom:4px;
+        padding:0;
     }
 
     h2 {
         color: grey;
         margin-top: 0px;
+        margin-bottom: 6px;
+        padding: 0px;
+        font-size: 26px;
+
     }
-    
-    hr {
-        color: grey;
+
+    h3 {
+        
+        margin-top: 17px;
+        margin-bottom:8px;
+        text-align: center;
+        color:grey;
+       
     }
+   
     
     #Footer {
         height: 40px;
@@ -106,7 +135,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 920px;
-        border-top: teal;
+        border-top: #44b3c2;
         border-top-width: 8px;
         border-top-style: solid;
     }
