@@ -60,7 +60,7 @@ footer {
     }
 
     button:hover {
-    background-color: #44b3c2; /* Green */
+    background-color: #44b3c2; 
     color: white;
     }
    
@@ -133,20 +133,20 @@ footer {
     }
 
     h2 {
-        color: grey;
+        color: #44b3c2; 
         margin-top: 0px;
         margin-bottom: 6px;
         padding: 0px;
-        font-size: 26px;
+        font-size: 28px;
 
     }
 
     h3 {
         
         margin-top: 17px;
-        margin-bottom:8px;
+        margin-bottom:9px;
         text-align: center;
-        color:grey;
+        color: #44b3c2; 
        
     }
    
