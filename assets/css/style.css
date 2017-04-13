@@ -68,6 +68,7 @@ footer {
         
         font-family: 'Roboto', sans-serif;
     }
+    
 
 
     #mainImage {
@@ -102,6 +103,8 @@ footer {
         padding: 0;
 
     }
+
+    
     
     #headerMenu {
         list-style: none;
@@ -152,9 +155,67 @@ footer {
    
     
     li {
+        
         margin: 0;
         padding:0;
         display: inline;
+
+    }
+
+
+
+     table {
+
+        padding:0;
+        margin:0;
+    }
+
+    
+    .projectImage {
+        height: 190px;
+        width: 150px;
+        padding: 8px;
+        margin:8px;
+        position: relative;
+
+    }
+
+    .projectButtons{
+        
+        position: relative;
+        padding:0;
+        margin:0;
+       
+    }
+    
+    #firstRow{
+
+        padding:0;
+        margin:0;
+
+    }
+
+
+    #secondRow{
+
+      
+
+    }
+
+
+    .banner {
+
+       
+        position: absolute;
+        bottom: 16px;
+        left:16px;
+        width: 130px;
+        background: #44b3c2; 
+        padding: 8px 10px 8px 10px;
+        color:white;
+        font-size:14px;
+        z-index: 1;
+        text-align: center;
     }
 
     form {
