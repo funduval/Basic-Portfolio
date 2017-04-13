@@ -47,7 +47,7 @@ footer {
     
    
     
-    button {
+    .button {
         border: none;
         background-color: white;
         font-size: 18px;
@@ -57,9 +57,10 @@ footer {
         padding:6px;
         -webkit-transition-duration: 0.4s; /* Safari */
         transition-duration: 0.4s;
+        text-decoration: none;
     }
 
-    button:hover {
+    .button:hover {
     background-color: #44b3c2;  
     color: white;
     }
