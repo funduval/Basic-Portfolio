@@ -10,7 +10,7 @@ footer {
     bottom: 0;
     height: 40px;
     width: 98.437%;
-    padding: 8px;
+    padding: 10px;
     text-align: center;
     background: url("https://github.com/funduval/Basic-Portfolio/blob/master/assets/images/grey_wash_wall.png?raw=true");
     color: white;
@@ -30,7 +30,7 @@ footer {
         background-color: #44b3c2;
         color: white;
         font-style: bold;
-        font-size: 38px;
+        font-size: 34px;
     }
     
     #mainBody {
@@ -60,7 +60,7 @@ footer {
     }
 
     button:hover {
-    background-color: #44b3c2; 
+    background-color: #44b3c2;  
     color: white;
     }
    
@@ -92,14 +92,14 @@ footer {
     #sidebarMenu {
         list-style: none;
         padding: 0px;
+        margin-left: 15%;
        
     }
     
     .logoButtons {
-        height: 19%;
-        width: 19%;
-        margin-left: 8px;
-        padding: auto;
+        height: 24%;
+        width: 24%;
+        padding: 0;
 
     }
     
@@ -118,7 +118,7 @@ footer {
         float: left;
         padding: 8px 18px 12px 18px;
         background-color: white;
-        width: 23%;
+        width: 22%;
         height: 25%;
         margin-right: auto;
         margin-left: 30px;
@@ -151,11 +151,47 @@ footer {
     }
    
     
-   
-   
-    
     li {
-        margin: 6px;
+        margin: 0;
+        padding:0;
         display: inline;
     }
+
+    form {
+
+        margin-top: 16px;
+    }
+
     
+input[type=text] {
+    width: 100%;
+    padding: 6px 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: 14px;
+    color: grey;
+}
+
+input [type=submit] {
+    padding: 6px 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: 14px;
+    color: grey;
+
+}
+
+textarea {
+    padding: 6px 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: 14px;
+    color: grey;
+}
+
