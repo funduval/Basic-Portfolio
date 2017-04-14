@@ -8,7 +8,7 @@ footer {
     bottom: 0;
     height: 40px;
     width: 960px;
-    padding-top: 16px;
+    padding-top: 18px;
     text-align: center;
     background: url("https://github.com/funduval/Basic-Portfolio/blob/master/assets/images/grey_wash_wall.png?raw=true");
     color: white;
@@ -170,7 +170,13 @@ table {
     margin: 0;
 }
 
-#secondRow {}
+
+
+#placeholder {
+
+    display:inline-block;
+    width: 80px;
+}
 
 .banner {
     position: absolute;
@@ -219,3 +225,5 @@ textarea {
     font-size: 14px;
     color: grey;
 }
+
+
